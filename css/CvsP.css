@@ -1,0 +1,138 @@
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-image: url(../img/Asgard.jpg);
+    font-family: "Comfortaa", sans-serif;
+    background-size: cover;
+  }
+  
+  h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .message {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    padding-bottom: 1em;
+  }
+  
+    label {
+      font-size: 4em;
+      font-weight:bold;
+      vertical-align:center
+    }
+    input[type=radio] {
+      margin: 1em;
+      cursor: pointer;
+    }
+    fieldset {
+      display: block;
+      opacity: 1;
+      transition: all ease 1s; 
+      background-color: rgba(5, 170, 156, 0.647); 
+    }
+    .game-on fieldset {
+      opacity: 0;
+      display: none;
+    }    
+    .game-on button {
+      opacity: 1;
+      display: block;
+      margin: 0 auto;
+    }
+   
+  
+  #grid {
+    display: grid;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "c1 c2 c3"
+    "c4 c5 c6"
+    "c7 c8 c9"
+    ;
+  }
+
+ul{
+  height: 400px;
+  width: 400px;
+}
+
+  li {
+    border: 1px solid #000;
+    font-size: 3em;
+    text-align: center;
+    background-color: rgb(38, 143, 80);
+    list-style: none;
+    padding-top:40px;
+  }
+  
+  #c1{
+    grid-area: c1;
+  }
+
+  #c2{
+    grid-area: c2;
+  }
+  
+  #c3{
+    grid-area: c3;
+  }
+
+  #c4{
+    grid-area: c4;
+  }
+
+  #c5{
+    grid-area: c5;
+  }
+
+  #c6{
+    grid-area: c6;
+  }
+
+  #c7{
+    grid-area: c7;
+  }
+
+  #c8{
+    grid-area: c8;
+  }
+
+  #c9{
+    grid-area: c9;
+  }
+
+  .winner {
+    color: #9AE1E5;
+  }
+  
+  .btn-primary, 
+  .btn-primary:focus {
+    background-color: #a19102;
+    opacity: 0;
+    outline: 0;  
+    transition: all ease .3s;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+  }
+  
+  .btn-primary:hover {
+    background-color:cadetblue;
+  }
+
+  .start-screen {
+    background-color: #337347;
+    color: azure;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 5px;
+}

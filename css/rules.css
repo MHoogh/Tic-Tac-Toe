@@ -1,0 +1,51 @@
+html {
+    /* background-color: green; */
+    background-image: url(../img/Green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 100%;
+    height: 570px;
+    margin: 0%;
+}
+
+.title {
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    width: 200px;
+    height: 50px;
+    /* background-color: blue; */
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color:darkkhaki;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+.rules {
+    text-align: center;
+    background-color: darkkhaki;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 75px;
+    padding: 30px;
+}
+

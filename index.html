@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="img/MicrosoftTeams-image.png" type="image/x-icons">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <button class="start-screen" onclick="location.href='start.html'">Home</button>
+
+    <div id="mainWrapper">
+        <header class="header box">Tic, Tac, Toe.</header>
+        <article class="henk box"></article>
+        <button class="button" onclick="location.href='rules.html'">Rules</button>
+        <div class="wrapper">
+            <div class="board" id="board">
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+            </div>
+            <div class="winning-message">
+                <div id="winningMessage"></div>
+                <button id="restartButton">Restart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
